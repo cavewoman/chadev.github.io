@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Devs
+title: Members
 ---
 
-{% assign sorted_devs = site.devs | sort:"name" %}
-{% for page in sorted_devs %}
+{% assign sorted_memebers = site.members %}
+{% for page in sorted_members %}
 
-  <section class="dev-profile">
+  <section class="member-profile">
     <a class="avatar" href="http://github.com/{{ page.github }}">
-      <img src="{% include gravatar/image.html size=site.gravatar_sizes.devs id=page.gravatar-id %}" class="profile-gravatar">
+      <img src="{% include gravatar/image.html size=site.gravatar_sizes.members id=page.gravatar-id %}" class="profile-gravatar">
       <h2>{{ page.name }}</h2>
     </a>
 
@@ -46,9 +46,3 @@ title: Devs
   </section>
 
 {% endfor %}
-
-<section class="callout">
-  <h2>Join the group!</h2>
-  <p>We invite anyone who is interested in becoming a member of CodeXX to join our community.
-  <a href="https://github.com/cavewoman/codexx.github.io">Submit a Pull Request</a> on GitHub to add yourself.
-</section>
