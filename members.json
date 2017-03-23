@@ -1,0 +1,25 @@
+---
+layout: json
+---
+{
+    "members": [
+        {% assign sorted_members = site.members %}
+        {% for page in sorted_members %}
+        {
+            "name": "{{ page.name }}",
+            "github": "{{ page.github }}",
+            "gravatar-id": "{{ page.gravatar-id }}"{% if page.urls %},
+            "urls": [
+            {% for url in page.urls %}
+                {
+                    "name": "{{ url.name }}",
+                    "url": "{{ url.url }}"
+                }{% if forloop.last == false %},{% endif %}
+                {% endfor %}
+                ]
+            {% endif %}
+
+            }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+    ]
+}
