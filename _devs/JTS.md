@@ -3,6 +3,6 @@ name: John S
 github: doppelhub
 urls:
     -   name: website
-        url: www.hastrumpbeenimpeachedyet.com
+        url: http://www.hastrumpbeenimpeachedyet.com
 layout: default
 ---
