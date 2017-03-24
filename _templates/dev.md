@@ -1,15 +1,14 @@
 ---
-name: <Real Name>
-github: <GitHub Username>
-gravatar-id: <hash of you email address for Gravatar>
+name: Lauren
+github: lllasseter 
 urls:
     -   name: website
-        url: <URL to your website if you have one>
+        url: waywardclimber.com
     -   name: twitter
-        url: <URL to your Twitter page>
+        url:
     -   name: google+
-        url: <URL to your Google+ page>
+        url: 
     -   name: facebook
-        url: <URL to your Facebook page>
+        url:
 layout: default
 ---
