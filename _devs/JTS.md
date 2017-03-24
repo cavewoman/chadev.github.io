@@ -1,5 +1,5 @@
 ---
-name: John
+name: John S
 github: doppelhub
 urls:
     -   name: website
