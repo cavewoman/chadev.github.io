@@ -5,7 +5,8 @@
 1. Fork the codexx.github.io repo.
   ![GitHub Fork button](http://i.imgur.com/0K2fyDs.png)
 2. Clone the fork into your development environment
-3. Copy the developer template _\_template/dev.md_ to _\_devs/YourHandle.md_
+3. Copy the developer template _\_templates/dev.md_ to _\_devs/YourHandle.md_
+```cp _templates/dev.md _devs/YourHandle.md```
 4. Replace the placeholder values with your details, see below for details about the file structure.
 5. Commit and push your changes to your fork.
 6. Submit a pull request to [cavewoman/codexx.github.io](https://github.com/cavewoman/codexx.github.io).
